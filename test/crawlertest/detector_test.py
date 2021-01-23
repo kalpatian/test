@@ -6,3 +6,6 @@ sql_view = 'SELECT team_name,category,description,create_user from team where te
 message = Message(subject='中国移动管理员申请', sender='1074612393@qq.com', recipients=['hengztian@163.com'], body='from ' +email + '\n' + reason)
 return render_template('manage_team_view.html', result=team_result)  # 返回到动主界面
 return render_template(m0bile.html', result=team_result)
+admin = 'kalpatian'
+password = 'kalaptian'
+                       
